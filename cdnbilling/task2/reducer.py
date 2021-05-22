@@ -2,10 +2,6 @@
 from operator import itemgetter
 import sys
 import socket
-try:
-    from urllib.parse import urlparse
-except ImportError:
-     from urlparse import urlparse
 
 domains = {}
 
